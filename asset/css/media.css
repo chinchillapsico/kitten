@@ -1,0 +1,40 @@
+/*cuando la pantalla sea de minimo 535 y maximo 824 ocurre este diseño al dispositivo*/
+@media (min-width: 535px) and (max-width: 824px){
+	[class*="col-"]{
+		width: 100%;	
+	}
+	body{
+		background: url("../img/tarde.png")no-repeat  center;
+		background-size: cover;
+		}
+	.container{
+	background: url("../img/kitten-medium.png") no-repeat center;
+	background-position: center;
+	background-size: 70%;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+
+}	
+}
+	
+/*cuando la pantalla sea de minimo 200 y maximo 534 ocurre este diseño al dispositivo*/
+@media (min-width: 200px) and (max-width: 534px){
+	[class*="col-"]{
+		width: 100%;
+	}
+	body{
+		background: url("../img/noche.jpg")no-repeat  center;
+	    background-size: cover;
+		}
+		.container{
+	background: url("../img/kitten-small.png") no-repeat center;
+	background-position: center;
+	background-size: 100%;
+	width: 200px;
+	height: 534px;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}	
+}

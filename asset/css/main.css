@@ -1,0 +1,12 @@
+body{
+	background: url("../img/dia.jpg")no-repeat  center fixed;
+	background-size: cover;
+}
+.container{
+	background: url("../img/kitten-large.png") no-repeat center;
+	height: 500px;
+	width: 900px;
+	margin: 100px;
+	display: flex;
+	justify-content: center;
+}
